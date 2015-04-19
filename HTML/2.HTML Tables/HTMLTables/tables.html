@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HTML Tables</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <table cellspacing="0" cellpadding="0">
+        <colgroup>
+            <col width="222px" />
+            <col width="200px" />
+        </colgroup>
+        <thead>
+            <tr class="row1">
+                <th colspan="2">Fresh Fruits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="description">
+                    It has log been known that a diet
+                    that includes at leasta few
+                    servings of fresh fruit every day
+                    will help keep you healthy, fit and trim.
+                </td>
+                <td>
+                    <img src="img/fruits.png" alt="fruits"/>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <td colspan="3" class="title">Title goes here</td>
+                <td>A</td>
+                <td class="tdB">B</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td class="tdN">N</td>
+                <td colspan="4">O</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="3" class="tdC">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td class="tdG">G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td colspan="2">I</td>
+                <td rowspan="2" class="tdJ">J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

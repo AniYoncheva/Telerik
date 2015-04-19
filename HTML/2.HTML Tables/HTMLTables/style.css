@@ -1,0 +1,32 @@
+﻿.row1 {
+    font-size: 26px;
+    font-style: italic;
+}
+
+table td {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.title {
+    padding: 0;
+}
+
+.tdC {
+    text-align: left;
+    padding-left: 0;
+}
+
+.tdJ {
+    vertical-align: bottom;
+    padding-right: 0;
+}
+
+.tdB, .tdN, .tdG {
+    text-align: right;
+    padding-right: 0;
+}
+
+.description{
+    text-align:left;
+}
