@@ -1,38 +1,38 @@
 ﻿table {
-            border: 1px solid black;
-            width: 480px;
-            border-collapse: collapse;
-        }
+	border: 1px solid black;
+	width: 480px;
+	border-collapse: collapse;
+}
 
-        tr, th, td {
-            border: 1px solid black;
-        }
+tr, th, td {
+	border: 1px solid black;
+}
 
-        table th {
-            width: 100px;
-        }
+table th {
+	width: 100px;
+}
 
-        .gender {
-            text-align: left;
-        }
+.gender {
+	text-align: left;
+}
 
-        .sdate {
-            width: 40px;
-        }
+.sdate {
+	width: 40px;
+}
 
-        .button {
-            text-align: center;
-            background-color: #87CEEB;
-        }
+.button {
+	text-align: center;
+	background-color: #87CEEB;
+}
 
-        #last, #first, #mail {
-            width: 300px;
-        }
+#last, #first, #mail {
+	width: 300px;
+}
 
-        #city, #bdate, #country {
-            width: 190px;
-        }
+#city, #bdate, #country {
+	width: 190px;
+}
 
-        #state, #zip, #code, #gender {
-            width: 80px;
-        }
+#state, #zip, #code, #gender {
+	width: 80px;
+}
