@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Grid component</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Drag a column header and drop it here to group by that column</th>
+            </tr>
+            <tr>
+                <th>ProductID</th>
+                <th>Product name</th>
+                <th>Unit price</th>
+                <th>Quantity per unit</th>
+                <th>Units in stock</th>
+                <th>Discontinued</th>
+            </tr>
+            <tr>
+                <th><input type="text" name="prod-id" /></th>
+                <th><input type="text" name="prod-name"/></th>
+                <th><input type="text" name="u-price" /><a><img src="img/0.png" /></a></th>
+                <th><input type="text" name="q-unit"/></th>
+                <th><input type="text" name="u-stock" /><a><img src="img/0.png" /></a></th>
+                <th><input type="checkbox" disabled="disabled" /><a><img src="img/0.png" /></a></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <ul>
+                        <li><a class="imgfoot" href="#"><img src="img/1.png" alt="First"/></a></li>
+                        <li><a class="imgfoot" href="#"><img src="img/2.png" alt="Previous" /></a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                        <li>...</li>
+                        <li><a class="imgfoot" href="#"> <img src="img/3.png" alt="Next" /></a></li>
+                        <li><a class="imgfoot" href="#"><img src="img/4.png" alt="Last" /></a></li>
+                    </ul>
+                    <span>
+                        Page size:
+                        <select>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                        </select>
+                    </span>
+                    <span>3351104 items of 33511 pages</span>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>17</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ikura</td>
+                <td>$10.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>13</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun</td>
+                <td>$22.00</td>
+                <td>36 boxes</td>
+                <td>53</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chang</td>
+                <td>$21.35</td>
+                <td>10 boxes x 20 bags</td>
+                <td>0</td>
+                <td><input type="checkbox" checked disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Chef Anton's Cajun</td>
+                <td>$97.00</td>
+                <td>36 boxes</td>
+                <td>120</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Chai</td>
+                <td>$31.00</td>
+                <td>36 boxes</td>
+                <td>15</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Chef Anton's Cajun</td>
+                <td>$40.00</td>
+                <td>10 boxes x 20 bags</td>
+                <td>6</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Chang</td>
+                <td>$25.25</td>
+                <td>36 boxes</td>
+                <td>29</td>
+                <td><input type="checkbox" checked disabled="disabled" /></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Chef Anton's Cajun</td>
+                <td>$10.10</td>
+                <td>10 boxes x 20 bags</td>
+                <td>31</td>
+                <td><input type="checkbox" disabled="disabled" /></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

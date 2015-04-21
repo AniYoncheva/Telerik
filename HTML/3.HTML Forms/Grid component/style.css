@@ -1,0 +1,81 @@
+﻿body{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:Arial;
+}
+
+table{
+    border-collapse:collapse;
+    width:800px;
+}
+
+thead, tfoot{
+    background-color:#E7E9EB;
+}
+
+table tr th{
+    border: 1px solid #808080;
+    font-weight: normal;
+    text-align: left;
+    padding: 5px;
+}
+
+table tfoot, td{
+    border: 1px solid #808080;
+}
+
+table tfoot span:nth-of-type(2){
+    float:right;
+    margin: 8px;
+}
+
+table tfoot span:first-of-type{
+    margin-left: 10px;
+}
+
+table tfoot ul,
+table tfoot li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 0 0 0 2px;
+    margin: 3px 0;
+}
+
+table tfoot ul li a:not(.imgfoot){
+    text-decoration:none;
+    padding:0 4px;
+    color:black;
+}
+
+table tfoot li a:not(.imgfoot):hover {
+    border: 1px solid #C95C05;
+    border-radius:3px;
+    padding:3px;
+}
+
+input, img{
+    vertical-align: middle;
+}
+
+input[name="prod-id"]{
+    width:30px; 
+}
+
+input[name="prod-name"]{
+    width:130px; 
+}
+
+input[name="u-price"],
+input[name="u-stock"]{
+    width:50px; 
+}
+
+input[name="q-unit"]{
+    width:100px; 
+}
+
+tbody td{
+    line-height: 26px;
+    padding-left: 7px;
+}
