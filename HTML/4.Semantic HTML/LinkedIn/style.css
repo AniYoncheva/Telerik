@@ -1,0 +1,86 @@
+﻿body {
+    font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    color: #134268;
+    background-color: #4FC3F7;
+    background: linear-gradient(to bottom, #54859b 0%, #91e5e2 50%, #91e5e2 100%) repeat fixed transparent;
+}
+
+body>header{
+    width:100%;
+    padding-bottom:10px;
+    border-bottom:1px solid #d9d9d9;
+    box-shadow: 0 1px 5px;
+    height: 100px;
+}
+body>header>div{
+    float:left;
+    margin-left:50px;
+    position: static;
+}
+body main{
+    margin-left:50px;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+header nav,
+header nav ul,
+header nav ul li,
+header nav form{
+    display:inline;
+    
+}
+
+header nav{
+    margin-left:50px;
+    position: relative;
+    top:30px;
+}
+
+header nav ul li{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration:none;
+    color:#134268;
+    transition: color linear 0.5s;
+}
+
+header nav ul li a:hover{
+    color:#91e5e2;
+}
+
+.dropdown-singin{
+    display:none;
+}
+
+li:hover .dropdown-singin{
+    display:inline-block;
+}
+
+
+input[type=submit]{
+    cursor:pointer;
+}
+
+form[name="join"],
+form[name="search"]{
+    width:450px;
+}
+
+form[name="join"] li,
+form[name="search"] li{
+    list-style-type:none;
+    padding-bottom: 10px;
+}
+
+/*form[name="join"] ul{
+    display:table-caption;
+}*/

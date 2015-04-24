@@ -1,0 +1,50 @@
+﻿body {
+    padding:0;
+    margin:0;
+    width:500px;
+    font-family:'Comic Sans MS';
+}
+
+table {
+    -moz-border-image:url('img/eCPM3.png');
+    -o-border-image:url('img/eCPM3.png');
+    -webkit-border-image:url('img/eCPM3.png');
+    border: 1px solid transparent;
+    padding: 25px;
+    border-image:url('img/eCPM3.png');
+    border-image-repeat: space;
+    border-image-slice: 30% 20%;
+    border-image-width:90px 40px 40px 40px;    
+    margin:0 auto;
+}
+
+th{
+    color:#ffffff;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    margin: 0 20px;
+    float:left;
+}
+nav li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration:none;
+    color:#000000;
+}
+
+nav li a:hover{
+    text-decoration:none;
+    color:#ff0000;
+}
+
+
+main{
+    clear:both;
+}
+
