@@ -1,0 +1,61 @@
+﻿body {
+    padding:0;
+    margin:0;
+    background-color:#A9A9A9;
+    font-size:16px;
+
+}
+
+.header{
+    color:#FAFAD2;
+    text-align:center;
+}
+
+.header li{
+    list-style-type:none;
+    color:#ffffff;
+}
+.header h1{
+    font-size:40px;
+}
+
+.header a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:900;
+}
+
+.current{
+    background-color:#D3D3D3;
+}
+
+#last{
+    text-decoration:underline;
+}
+
+section{
+    margin-left:10px;
+}
+
+section header{
+    color:#FAFAD2;
+}
+
+article footer{
+    font-size:12px;
+}
+
+article h1{
+    font-size:24px;
+}
+
+footer a{
+    text-decoration:none;
+    color:#000000;
+}
+
+.footer{
+    text-align:center;
+    margin:10px;
+}
