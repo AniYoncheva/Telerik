@@ -1,0 +1,11 @@
+﻿body{
+    width:1024px;
+    text-align:center;
+}
+
+div {
+    border:1px solid #ff0000;
+    padding-right:3%;
+    background-color:#000000;
+    border-radius:60px;
+}
