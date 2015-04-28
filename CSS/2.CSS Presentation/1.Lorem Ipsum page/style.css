@@ -1,7 +1,7 @@
 ﻿body {
     margin:0;
     padding:0;
-    font-family:Consolas;
+    font-family:Consolas, 'Times New Roman', Times, serif;
 }
 
 p{
@@ -9,7 +9,7 @@ p{
     margin:10px;
 }
 p:first-letter{
-    font-family:'Edwardian Script ITC';
+    font-family:'Edwardian Script ITC', 'Times New Roman', Times, serif;
     font-size:50px;
 }
 
