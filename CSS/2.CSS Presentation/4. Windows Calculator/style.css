@@ -1,14 +1,13 @@
-﻿html{
-    background:#ffffff;
-}
-
-body {
+﻿body {
     padding:0;
-    background: linear-gradient(to right, #BDDDFB 0%, #ABCBEA 16%, #BDDDFB 81%, #ABCBEA 85%);
-    width: 470px;
+     background:#ffffff;
+}
+#root{
     border: 1px solid #8E9DAF;
     border-radius:3px;
     color: #223F61;
+    width: 470px;
+    background: linear-gradient(to right, #BDDDFB 0%, #ABCBEA 16%, #BDDDFB 81%, #ABCBEA 85%);
 }
 
 #calc {
