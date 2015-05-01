@@ -28,7 +28,7 @@ header img{
     color:#ffffff;
     font-size:20px;
     display:inline;
-    margin:0 10px 0 30px;
+    margin:0 10px 0 15px;
 }
 
 form{
@@ -40,7 +40,7 @@ section{
     background-color:#3B3B3B;
     border-bottom-right-radius:10px;
     border-bottom-left-radius:10px;
-    padding:15px 20px 20px;
+    padding:20px 20px 20px 15px;
 }
 
 section h1{
@@ -59,8 +59,8 @@ section p:first-of-type{
 
 input:not(.button){
     padding:2px;
-    width:120px;
-    margin-right:15px;
+    width:130px;
+    margin-right:18px;
 }
 input[placeholder]{
     padding-left:15px;

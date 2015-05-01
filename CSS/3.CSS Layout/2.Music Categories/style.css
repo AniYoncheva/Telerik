@@ -12,7 +12,7 @@ h1{
 }
 section{
     background-color:#EEEEEE;
-    width:368px;
+    width:390px;
     border:1px solid #888888;
     border-radius:10px;
     margin:20px;
@@ -22,10 +22,9 @@ section{
 article{
     border:1px solid #888888;
     margin:0 0 38px 0;
-    padding:12px;
+    padding:12px 0;
     background-color:#ffffff;
-    font-size:12px;
-    max-height:90px;   
+    font-size:12px;  
 }
 
 article:last-of-type{
@@ -33,13 +32,13 @@ article:last-of-type{
 }
 
 article div{
-    margin:10px 0;
+    margin:15px 5px;
     text-align: right;
 }
 
 img{
     float:left;
-    margin-right:18px;
+    margin-right:30px;
 }
 
 .button {
