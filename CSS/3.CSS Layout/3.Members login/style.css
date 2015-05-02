@@ -29,10 +29,12 @@ header img{
     font-size:20px;
     display:inline;
     margin:0 10px 0 15px;
+	vertical-align:middle;
 }
 
 form{
     display:inline;
+	vertical-align:middle;
 }
 
 section{
