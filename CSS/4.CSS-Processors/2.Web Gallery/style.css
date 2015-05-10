@@ -1,0 +1,25 @@
+﻿body {
+  text-align: center;
+}
+nav img {
+  margin-top: 50px;
+  cursor: pointer;
+  width: 250px;
+  height: 180px;
+  position: relative;
+  border-radius: 15px;
+  -moz-transition: all .9s linear;
+  -o-transition: all .9s linear;
+  -webkit-transition: all .9s linear;
+  transition: all .9s linear;
+}
+nav img:hover {
+  /*-ms-transform: scale(2);
+        -moz-transform: scale(2);
+        -o-transform: scale(2);
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        top: 100px;*/
+  transform: translate(0, 150px) scale(2);
+}
+/*# sourceMappingURL=style.css.map */
