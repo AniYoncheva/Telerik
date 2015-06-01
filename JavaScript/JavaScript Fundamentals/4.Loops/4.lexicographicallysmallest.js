@@ -3,7 +3,7 @@
 
 //// Open index.html to view the result in console.
 
-function solveTask(objects) {
+function takeNumber(objects) {
 	for (var object in objects) {
 		var properties = [];
 		
@@ -19,4 +19,4 @@ function solveTask(objects) {
 	}
 }
 
-solveTask([document, window, navigator]);
+takeNumber([document, window, navigator]);
