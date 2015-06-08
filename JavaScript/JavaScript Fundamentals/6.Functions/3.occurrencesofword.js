@@ -2,14 +2,16 @@
 //The search can be case sensitive or case insensitive.
 //Use function overloading.
 
-var text = 'java script pesho gosho bla bla dran dran';
-console.log(countOccurrence(text, 'java', false));
-console.log(countOccurrence(text, 'pesho', true));
-
-function countOccurrence(text, word, isCaseSensitive){
-	var regexString = '\\b' + word + '\\b',
-		modifier = isCaseSensitive ? 'g' : 'gi',
-		regex = new RegExp(regexString, modifier);
-		
-	return text.match(regex).length;
+function countOccurrences(text, searchedWord, isCaseSensitive) {
+    isCaseSensitive = isCaseSensitive || false;
+    var substrings = text.split(searchedWord);
+    return substrings.length - 1;
 }
+
+function printResult() {
+    var text = 'Hello World';
+    var searchedWord = 'Hello';
+    console.log(countOccurrences(text, searchedWord, true));
+}
+
+printResult();
